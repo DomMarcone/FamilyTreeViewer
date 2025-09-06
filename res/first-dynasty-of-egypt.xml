@@ -1,0 +1,48 @@
+<people>
+  <person name="Narmer/Menes" id="54a3308e-cd8e-4376-88cd-f85639ce434a" >
+  </person>
+  <person name="Neithhotep" id="48937ec0-5a77-408e-8eb8-bb518d4968d6" >
+  </person>
+  <person name="Aha" id="7495ea3f-f868-4a0e-b3d4-b3ad597ff242" >
+    <parent>54a3308e-cd8e-4376-88cd-f85639ce434a</parent>
+    <parent>48937ec0-5a77-408e-8eb8-bb518d4968d6</parent>
+  </person>
+  <person name="Khenthap" id="5136fdc6-4cdf-4468-90af-2ae1d89cf394" >
+  </person>
+  <person name="Djer" id="5ce2095a-1491-462a-b3e1-32129b1bcfc3" >
+    <parent>7495ea3f-f868-4a0e-b3d4-b3ad597ff242</parent>
+    <parent>5136fdc6-4cdf-4468-90af-2ae1d89cf394</parent>
+  </person>
+  <person name="Nakhtneith" id="fac3ae26-24f7-4555-824b-47e510cbc729" >
+  </person>
+  <person name="Djet" id="d06c7692-1e32-414f-bc36-408f6107e6d0" >
+    <parent>5ce2095a-1491-462a-b3e1-32129b1bcfc3</parent>
+    <parent>fac3ae26-24f7-4555-824b-47e510cbc729</parent>
+  </person>
+  <person name="Merneith" id="899079f1-c7b4-4dfc-8b28-a0858fab0671" >
+    <parent>d06c7692-1e32-414f-bc36-408f6107e6d0</parent>
+    <parent>fac3ae26-24f7-4555-824b-47e510cbc729</parent>
+  </person>
+  <person name="Den" id="f3ef1286-5fe4-450f-ae80-bc7e872aff44" >
+    <parent>899079f1-c7b4-4dfc-8b28-a0858fab0671</parent>
+    <parent>d06c7692-1e32-414f-bc36-408f6107e6d0</parent>
+    <event date="-2970">Reign</event>
+  </person>
+  <person name="Seshemetka" id="024163ca-2288-4a19-87ae-3b3db5b81457" >
+  </person>
+  <person name="Adjib" id="b7f3bdbe-a6ae-4c98-b6ed-5dfd235534fe" >
+    <parent>f3ef1286-5fe4-450f-ae80-bc7e872aff44</parent>
+    <parent>024163ca-2288-4a19-87ae-3b3db5b81457</parent>
+    <event date="-2930">Reign</event>
+  </person>
+  <person name="Betrest" id="57bdcc5f-33d1-40aa-bf51-562be62505fb" >
+  </person>
+  <person name="Semerkhet	" id="8d69da6f-d229-4e81-b112-741b6c82863e" >
+    <parent>b7f3bdbe-a6ae-4c98-b6ed-5dfd235534fe</parent>
+    <parent>57bdcc5f-33d1-40aa-bf51-562be62505fb</parent>
+    <event date="-2920">Reign</event>
+  </person>
+  <person name="Qa'a" id="77fed6da-98a4-4915-97d3-ec248013e42b" >
+    <event date="-2910">Reign</event>
+  </person>
+</people>
