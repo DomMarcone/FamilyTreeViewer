@@ -87,9 +87,18 @@ namespace FamilyTreeViewer
     public void Load(string filename)
     {
       XmlDocument doc = new XmlDocument();
-      FileStream file = File.OpenRead(filename);
+      FileStream file;
 
-      if (!file.CanRead)
+      try { 
+        file = File.OpenRead(filename);
+      } 
+      catch (Exception e)
+      {
+        Console.WriteLine(e);
+        return;
+      }
+
+      if (file == null || !file.CanRead)
       {
         Console.WriteLine($"Unable to open {filename}");
         return;
